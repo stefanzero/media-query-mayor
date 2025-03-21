@@ -1,0 +1,126 @@
+body {
+  /* background-color: darkgrey; */
+  background-image: url("./assets/wood-background.jpg");
+  font:
+    16px Roboto,
+    Arial,
+    sans-serif;
+}
+main {
+  background-color: white;
+}
+
+header {
+  /* background-color: darkgrey; */
+  /* display: inline-block; */
+  margin: 0 auto;
+  max-width: 1024px;
+  background-color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+hr {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0 0 0;
+}
+
+.profile-image-container {
+  padding-bottom: 90%;
+  width: 90%;
+  border-radius: 50%;
+  margin: 0;
+  border: 1px solid red;
+  overflow: hidden;
+  height: 0;
+  max-height: 100%;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.col-md-6 {
+  margin: 0;
+  width: 50%;
+  display: inline-flex;
+}
+
+.profile-image {
+  width: 100%;
+  margin-top: -25%;
+}
+
+article p {
+  font-size: 1.5rem;
+}
+
+.right-content {
+  display: flex;
+  justify-content: space-around;
+}
+.right-content article {
+  width: 80%;
+  padding: 2em;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  margin: 2px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer li {
+  padding: 1em;
+  display: inline-flex;
+  align-items: center;
+}
+footer a {
+  color: white;
+  padding: 1em;
+}
+footer a:visited {
+  color: white;
+}
+@media only screen and (max-width: 1024px) {
+  .profile-image-container {
+    padding-bottom: 80%;
+    width: 80%;
+  }
+  article p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .profile-image-container {
+    padding-bottom: 70%;
+    width: 70%;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+}
