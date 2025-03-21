@@ -73,10 +73,9 @@ footer ul {
 footer li {
   display: inline-flex;
   align-items: center;
-  padding: 1em;
+  padding: 1rem;
 }
 footer a {
-  padding: 1rem;
   color: white;
 }
 footer a:visited {
