@@ -1,23 +1,23 @@
 body {
-  /* background-color: darkgrey; */
-  background-image: url("./assets/wood-background.jpg");
+  background-image: url("https://cdn.glitch.global/1980f083-bca8-4de6-aff4-d5fb516744d3/wood-background.jpg?v=1742509472161");
   font:
     16px Roboto,
     Arial,
     sans-serif;
 }
-main {
-  background-color: white;
-}
-
 header {
-  /* background-color: darkgrey; */
-  /* display: inline-block; */
   margin: 0 auto;
   max-width: 1024px;
   background-color: white;
   text-align: center;
   padding: 1rem 0;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main {
+  background-color: white;
 }
 hr {
   max-width: 1024px;
@@ -27,9 +27,8 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2em 0 0 0;
+  padding: 0;
 }
-
 .profile-image-container {
   padding-bottom: 90%;
   width: 90%;
@@ -38,51 +37,33 @@ figure {
   border: 1px solid red;
   overflow: hidden;
   height: 0;
-  max-height: 100%;
 }
-
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
 section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 2rem 0;
 }
-.col-md-6 {
+.column {
   margin: 0;
   width: 50%;
-  display: inline-flex;
 }
-
 .profile-image {
   width: 100%;
   margin-top: -25%;
 }
-
-article p {
-  font-size: 1.5rem;
-}
-
 .right-content {
   display: flex;
   justify-content: space-around;
 }
 .right-content article {
   width: 80%;
-  padding: 2em;
-}
-
-.about-me {
-  display: flex;
-  align-items: center;
+  padding: 0 2em;
   margin: 2px;
 }
-
+article p {
+  font-size: 1.2rem;
+}
 footer {
   display: flex;
   justify-content: center;
@@ -112,7 +93,7 @@ footer a:visited {
     width: 80%;
   }
   article p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -120,7 +101,10 @@ footer a:visited {
     padding-bottom: 70%;
     width: 70%;
   }
-  .col-md-6 {
+  .right-content article {
+    padding-top: 2rem;
+  }
+  .column {
     width: 100%;
   }
 }
