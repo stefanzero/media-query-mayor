@@ -5,25 +5,19 @@ body {
     Arial,
     sans-serif;
 }
-header {
-  margin: 0 auto;
+.container {
   max-width: 1024px;
+  margin: 0 auto;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+header {
   background-color: white;
   text-align: center;
   padding: 1rem 0;
   border-top: 2em solid black;
 }
 hr {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-header,
-main,
-footer {
-  border-left: 5px solid black;
-  border-right: 5px solid black;
-}
-.container {
   max-width: 1024px;
   margin: 0 auto;
 }
