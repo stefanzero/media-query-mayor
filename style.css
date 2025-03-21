@@ -12,14 +12,10 @@ body {
   border-right: 5px solid black;
 }
 header {
-  background-color: white;
-  text-align: center;
   padding: 1rem 0;
   border-top: 2em solid black;
-}
-hr {
-  max-width: 1024px;
-  margin: 0 auto;
+  background-color: white;
+  text-align: center;
 }
 main {
   background-color: white;
@@ -37,17 +33,17 @@ figure {
   padding: 0;
 }
 .column {
-  margin: 0;
   width: 50%;
+  margin: 0;
 }
 .profile-image-container {
   padding-bottom: 90%;
   width: 90%;
+  height: 0;
+  border: 1px solid black;
   border-radius: 50%;
   margin: 0;
-  border: 1px solid black;
   overflow: hidden;
-  height: 0;
 }
 .profile-image {
   width: 100%;
@@ -70,18 +66,18 @@ footer {
   color: white;
 }
 footer ul {
-  list-style: none;
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 footer li {
-  padding: 1em;
   display: inline-flex;
   align-items: center;
+  padding: 1em;
 }
 footer a {
-  color: white;
   padding: 1rem;
+  color: white;
 }
 footer a:visited {
   color: white;
