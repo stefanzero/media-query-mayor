@@ -84,6 +84,9 @@ footer a:visited {
 footer a:hover {
   color: #ff9fa0;
 }
+footer i {
+  margin-right: 0.5rem;
+}
 @media only screen and (max-width: 1024px) {
   .profile-image-container {
     padding-bottom: 80%;
