@@ -21,11 +21,11 @@ header {
 main {
   background-color: white;
 }
-section {
+article {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 figure {
   display: flex;
@@ -54,7 +54,13 @@ figure {
   display: flex;
   justify-content: space-around;
 }
-.right-content article {
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.right-content section {
   width: 80%;
 }
 article p {
@@ -93,7 +99,7 @@ footer i {
     padding-bottom: 80%;
     width: 80%;
   }
-  article p {
+  section p {
     font-size: 1rem;
   }
 }
@@ -105,7 +111,7 @@ footer i {
     padding-bottom: 70%;
     width: 70%;
   }
-  .right-content article {
-    padding-top: 2rem;
+  .right-content section {
+    padding-top: 1rem;
   }
 }
