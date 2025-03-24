@@ -33,6 +33,7 @@ article {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 figure {
   padding: 1rem 0;
@@ -52,6 +53,7 @@ figure {
 }
 .column section {
   width: 80%;
+  margin-right: 5%;
 }
 section p {
   font-size: 1.2rem;
