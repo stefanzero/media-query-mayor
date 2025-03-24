@@ -1,0 +1,8 @@
+
+http://html/examples/media-query-mayor/index.html
+http://html/examples/media-query-mayor/v1/index.html
+http://html/examples/media-query-mayor/v2/index.html
+http://html/examples/media-query-mayor/v3/index.html
+http://html/examples/media-query-mayor/v4/index.html
+http://html/examples/media-query-mayor/v5/index.html
+http://html/examples/media-query-mayor/v6/index.html

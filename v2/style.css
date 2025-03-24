@@ -1,0 +1,40 @@
+body {
+  font:
+    16px Roboto,
+    Arial,
+    sans-serif;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+header {
+  padding: 1rem 0;
+  border-top: 2em solid black;
+  border-bottom: 1px inset rgba(0, 0, 0, 0.5);
+  background-color: #fcf5e3;
+  text-align: center;
+}
+figure {
+  margin: 0;
+  padding: 1rem 0;
+}
+article {
+  padding: 1rem 0;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: black;
+}
+footer a,
+footer a:link,
+footer a:visited {
+  color: white;
+}
+footer a:hover {
+  color: #ffff00;
+}

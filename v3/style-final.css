@@ -1,0 +1,59 @@
+body {
+  font:
+    16px Roboto,
+    Arial,
+    sans-serif;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+header {
+  padding: 1rem 0;
+  border-top: 2em solid black;
+  border-bottom: 1px inset rgba(0, 0, 0, 0.5);
+  background-color: #fcf5e3;
+  text-align: center;
+}
+figure {
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.profile-image-container {
+  margin: 0;
+  overflow: hidden;
+  padding-bottom: 50%;
+  width: 50%;
+  /* padding-bottom: 90%; */
+  /* width: 90%; */
+  height: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.profile-image {
+  /* display: none; */
+  width: 100%;
+  margin-top: -25%;
+}
+article {
+  padding: 1rem 0;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: black;
+  color: white;
+}
+footer a,
+footer a:link,
+footer a:visited {
+  color: white;
+}
+footer a:hover {
+  color: #ffff00;
+}
