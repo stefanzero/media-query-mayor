@@ -24,20 +24,16 @@ figure {
   justify-content: center;
 }
 .profile-image-container {
-  margin: 0;
-  overflow: hidden;
-  padding-bottom: 50%;
   width: 50%;
-  /* padding-bottom: 90%; */
-  /* width: 90%; */
-  height: 0;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
   border: 1px solid black;
   border-radius: 50%;
 }
 .profile-image {
-  /* display: none; */
   width: 100%;
-  margin-top: -25%;
+  height: 100%;
+  object-fit: cover;
 }
 article {
   padding: 1rem 0;

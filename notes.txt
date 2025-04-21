@@ -1,8 +1,24 @@
 
+Figma
+https://www.figma.com/design/zyLqPJypyXnCPtNW2CKUaK/Simple-Media-Query?node-id=0-1&p=f&t=OyxTRJNa17ceCV6A-0
+
+
 http://html/examples/media-query-mayor/index.html
+
+create basic structure
 http://html/examples/media-query-mayor/v1/index.html
+
+add CSS container and basic styling
 http://html/examples/media-query-mayor/v2/index.html
+
+add image container and image CSS
 http://html/examples/media-query-mayor/v3/index.html
+
+add column to HTML and CSS
 http://html/examples/media-query-mayor/v4/index.html
+
+add media queries
 http://html/examples/media-query-mayor/v5/index.html
+
+final touches: add background image, add icon to footer
 http://html/examples/media-query-mayor/v6/index.html
