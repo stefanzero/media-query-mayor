@@ -22,17 +22,16 @@ figure {
   padding: 1rem 0;
 }
 .profile-image-container {
-  padding-bottom: 90%;
+  aspect-ratio: 1 / 1;
   width: 90%;
-  height: 0;
   border: 1px solid black;
   border-radius: 50%;
-  margin: 0;
   overflow: hidden;
 }
 .profile-image {
   width: 100%;
-  margin-top: -25%;
+  height: 100%;
+  object-fit: cover;
 }
 article {
   padding: 1rem 0;
@@ -41,12 +40,10 @@ article {
   flex-wrap: wrap;
 }
 .column {
-  margin: 0;
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
 }
 .column section {
   width: 80%;
@@ -70,9 +67,11 @@ footer a:visited {
 footer a:hover {
   color: #ffff00;
 }
+section p {
+  font-size: 1.2rem;
+}
 @media only screen and (max-width: 1024px) {
   .profile-image-container {
-    padding-bottom: 80%;
     width: 80%;
   }
   section p {
@@ -87,7 +86,6 @@ footer a:hover {
     margin-right: 0;
   }
   .profile-image-container {
-    padding-bottom: 70%;
     width: 70%;
   }
 }
