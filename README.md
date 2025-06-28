@@ -1,4 +1,4 @@
-# Media Query Major
+# Media Query Mayor
 
 =====================
 
@@ -56,5 +56,18 @@ By working through these versions, you'll gain a deeper understanding of how to 
 ## Repository
 
 - https://github.com/stefanzero/media-query-mayor
+
+### Deployment
+
+This project is deployed using GitHub Pages.
+
+- https://stefanzero.github.io/media-query-mayor
+- https://stefanzero.github.io/media-query-mayor/v0
+- https://stefanzero.github.io/media-query-mayor/v1
+- https://stefanzero.github.io/media-query-mayor/v2
+- https://stefanzero.github.io/media-query-mayor/v3
+- https://stefanzero.github.io/media-query-mayor/v4
+- https://stefanzero.github.io/media-query-mayor/v5
+- https://stefanzero.github.io/media-query-mayor/v6
 
 Feel free to fork, clone, or contribute to the project!
